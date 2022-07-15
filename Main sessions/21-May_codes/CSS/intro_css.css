@@ -1,0 +1,49 @@
+
+div{
+    color: blue;
+}
+
+h3{
+
+    color: cyan;
+}
+
+
+h3{
+
+    color: black;
+}
+
+
+h4{
+    color: blueviolet;
+
+}
+
+#s{
+   color: brown; 
+   font-weight: bold;
+   font-family: fantasy;
+}
+
+.one{
+   color: gold; 
+   font-weight: bold;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+    color: black;
+}
+
+h1{
+    color:cornflowerblue;
+}
+
+h1,#a,.two{
+    color: coral;
+
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

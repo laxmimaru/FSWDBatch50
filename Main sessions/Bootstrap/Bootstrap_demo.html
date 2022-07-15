@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+</head>
+<body>
+    <!--Glyphycons-->
+    <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+<p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+<p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
+<p>Print icon: <span class="glyphicon glyphicon-music"></span></p>
+<p>Print icon: <span class="glyphicon glyphicon-user"></span></p>
+<p>Print icon: <span class="glyphicon glyphicon-facetime-video"></span></p>
+
+
+<!--Tables in bootstrap-->
+<table class="table table-dark table-striped">
+    <thead>
+        <th>empno</th>
+        <th>empname</th>
+        <th>dept</th>
+    </thead>
+    <tr>
+        <td>10</td>
+        <td>ram</td>
+        <td>accounting</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>kyle</td>
+        <td>IT</td>
+    </tr>
+
+</table>
+
+<!--Typography-->
+<div class="container">
+    <p class="font-weight-bold">I am typographic content</p>
+</div>
+
+<!--Styled images-->
+<img src='./Images/lunch.jpg' class="rounded-circle" />
+
+<img src='./Images/lunch.jpg' class="img-thumbnail" />
+
+
+<!--Bootstrap buttons-->
+
+<button class="btn btn-primary">Bold button</button>
+<button class="btn btn-secondary">Secondary button</button>
+
+<button class="btn btn-outline-primary">Bold button</button>
+<button class="btn btn-outline-secondary">Secondary button</button>
+
+<br/><br/>
+<!--Grouped buttons -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-dark font-weight-bold">button1</button>
+    <button type="button" class="btn btn-dark font-weight-bold">button2</button>
+    <button type="button" class="btn btn-dark font-weight-bold">button3</button>
+    <button type="button" class="btn btn-dark font-weight-bold">button4</button>
+
+</div>
+
+<br/><br/>
+
+<!--Bootstrap drop downs-->
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+
+  <!--panels-->
+
+  <div class="container">
+    <h2>This is a panel</h2>
+    <div class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Panel header
+
+            </div class="panel-body panel-primary">
+                FSD
+            <div>
+                <div class="panel-footer">
+                    Panel footer
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container">
+    <p>click on button</p>
+    <div class="btn btn-info" data-toggle="collapse" data-target="#demo">
+        click here
+
+    </div>
+    <div id="demo" class="collapse">
+        FSD
+
+    </div>
+
+</div>
+
+<nav>
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">e!</a>
+                <button class="btn btn-primary navbar-btn">Get app</button>
+
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a>Login</a></li>
+                <li><a>Signup</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<div class="container">
+    <form>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email"/>
+
+        </div>
+    </form>
+
+</div>
+</body>
+</html>

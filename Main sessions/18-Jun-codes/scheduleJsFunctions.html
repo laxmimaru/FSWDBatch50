@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling Demo</title>
+</head>
+<body>
+    
+    <h3>Wait for 5 seconds</h3>
+    <p id = "timeout"></p>
+    <p id="interval"></p>
+
+    <script>
+        setTimeout(greet, 5000);
+
+        function greet(){
+            document.getElementById("timeout").innerHTML = "Hello user!!Welcome back";
+           // alert( "Hello user!!Welcome back")
+        }
+
+        setInterval(intervalGreet,2000);
+
+        function intervalGreet(){
+
+            document.getElementById("interval").innerHTML += "Welcome</br/>";
+
+        }
+    </script>
+
+</body>
+</html>

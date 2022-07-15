@@ -1,0 +1,82 @@
+.rectangle{
+    height: 100px;
+    width: 50px;
+    background-color: yellow;
+    margin: 20px;    
+    display: inline;
+}
+
+
+.square{
+ 
+    background-color: rebeccapurple;
+    height: 50px;    
+    width: 50px;    
+    margin: 20px;
+    display: block;
+}
+
+.inline-block_div{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    margin: 20px;    
+    display: inline-block;
+
+}
+
+.inline-block_span{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    margin: 20px;    
+    display: inline-block;
+
+}
+
+.bg_img{
+    height: 1000px;
+    width: 1000px;
+    background-image: url("./Images/zomato.jpg");
+/*    background-size: cover;*/
+background-repeat: no-repeat;
+background-attachment: scroll;
+    
+    
+}
+
+.font-size{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#parent{
+    height: 10000px;
+    width: 800px;
+    background-color: orange;
+    position: relative;
+}
+
+#child1{
+    height: 100px;
+    width: 200px;
+    background-color: rebeccapurple;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+#child2{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+#child3{
+    height: 100px;
+    width: 200px;
+    background-color: chartreuse;
+}
