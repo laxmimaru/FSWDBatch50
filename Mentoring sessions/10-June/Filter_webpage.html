@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter web page</title>
+    <link rel="stylesheet" href="./Filter.css"/>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <div style="display: inline-block;">
+                <img src="./Images/FoodLogo.jpg" class="headerimage"/>
+            </div>
+            
+            <div style="left: 900px;display: inline-block;position: absolute;bottom: 10px;bottom: 20px;">
+                <text style="color: white;">Login</text>
+                <button type="button" class="createaccount">Create an account</button>
+            </div>
+        </div>
+    </div>
+
+       
+    
+    <div class="banner">
+        Breakfast Places in Mumbai
+    </div>
+
+    <div style="position: relative;display: inline-block;">
+
+        <div class="filterdiv">
+            <div class="innerfilter">
+                <h5>Filters</h5>
+                <text style="color: darkblue;">select Locaion</text>
+                <select>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+                <div style="margin-top: 5px;">
+                    <text style="color: darkblue;">Cuisine</text><br/>
+                    <input type="checkbox" name="North" value="North Indian"/>North Indian<br/>
+                    <input type="checkbox" name="South" value="South Indian"/>South Indian<br/>
+                    <input type="checkbox" name="Chinese" value="Chinese"/>Chinese<br/>
+                    <input type="checkbox" name="FastFood" value="FastFood"/>Fast Food<br/>
+                    <input type="checkbox" name="StreetFood" value="StreetFood"/>Street Food<br/>
+                </div>
+                <div style="margin-top: 5px;">
+                    <text style="color: darkblue;">Cuisine</text><br/>
+                    <input type="radio" name="1"  value="1"/>Less than 500<br/>
+                    <input type="radio" name="2" value="2"/>500 to 1000<br/>
+                    <input type="radio" name="3" value="3"/>1000 to 1500<br/>
+                    <input type="radio" name="4" value="4"/>1500 to 2000<br/>
+                    <input type="radio" name="5" value="5"/>2000+<br/>
+                </div>
+
+                <div style="margin-top: 5px;">
+                    <text style="color: darkblue;size: 10px;font-weight: bold;">Sort</text><br/>
+                    <input type="radio" />Price Low to High<br/>
+                    <input type="radio" />Price High to Low <br/>
+         
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="options">
+        <div class="option1">
+            <div class="item1">
+                <div class="smallitem">
+                    <img src="./Images/dokla.jpg"  style="height:100%;width: 100%;object-fit: cover;border-radius: 30px;"/>
+
+                </div>
+
+                <div class="bigitem">
+                    <div style="padding: 20px;">
+                        <div><h1>The Big Chill Bakery</h1></div>
+                        <div>FORT</div>
+                        <div>Shop 1,Plot D,Smaruddhi Complex,Chincholi</div>
+                    </div>                 
+                </div>
+                <hr width="90%"/>
+                <div>
+                    <div>CUISUINES     :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Bakery</div>
+                    <div>COST FOR TWO  :   700Rs</div>
+                </div>
+
+            </div>
+           
+        </div>
+
+        <div class="option2">
+            <div class="item1">
+                <div class="smallitem">
+                    <img src="./Images/coffee.jpg"  style="height:60%;width: 70%;object-fit: cover;border-radius: 30px;"/>
+
+                </div>
+
+                <div class="bigitem">
+                    <div style="padding: 20px;">
+                        <div><h1>The Bake Shop</h1></div>
+                        <div>FORT</div>
+                        <div>Shop 1,Plot D,Smaruddhi Complex,Chincholi</div>
+                    </div>                 
+                </div>
+                <hr width="90%"/>
+                <div>
+                    <div>CUISUINES     :    Bakery</div>
+                    <div>COST FOR TWO  :   700Rs</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">
+                <div style="text-align: center;height: 50px;width: 50px;border: 2px grey;background-color: grey;">
+                    1
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    
+
+    
+    
+</body>
+</html>
+
