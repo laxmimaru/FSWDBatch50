@@ -1,0 +1,103 @@
+#bg-img{
+    background-image: url('./Images/Dinner.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 1350px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+#bg-banner{
+    font-size: 50px;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    font-weight: bold;
+}
+
+
+#search{
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    right: 400px;   
+    height: 50px; 
+}
+
+#quick{
+    font-size: 40px;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;          
+    font-weight: bold;  
+    padding-left: 50px;
+}
+
+.food-item1{
+    display: inline-block;    
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    border: double blue;
+}
+
+.food-item2{
+    display: inline-block;
+    background-color: green;
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+}
+
+.food-item3{        
+    background-color: blue;
+    height: 150px;
+    width: 300px;    
+    margin: 10px;
+    display: inline-block;
+}
+
+.food-item4{    
+    background-color: red;
+    height: 150px;
+    width: 300px;
+    margin: 10px;    
+    display: inline-block;
+}
+
+.food-item5{    
+    background-color:orange;
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.food-item6{
+    display: inline-block;
+    background-color: blueviolet;
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+}
+
+.img1-div{
+    height: 125px;
+    width: 150px;
+    display: inline-block;
+
+}
+
+
+.tex1-div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;    
+    position: relative;
+
+}
+
+
+
