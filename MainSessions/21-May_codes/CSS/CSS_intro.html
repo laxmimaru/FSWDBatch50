@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Intro</title>
+    <style>
+       
+        
+        h2{
+            color: chartreuse;
+        }
+
+        h1{
+            color: blue;
+        }
+    </style>
+
+    <link rel="stylesheet" href="intro_css.css"/>
+</head>
+<body>
+    <!--
+        1)Inline CSS 
+    -->
+    <h1 style="color: red;">Welcome to CSS</h1>
+
+    <!--
+        2)Internal CSS 
+    -->
+    <span>This is a CSS session</span> <br/>
+
+    <span>I am styled by internal css</span>
+    <h2>I am h2 styled by internal css</h2>
+    <h2>I am second h2 styled by internal css</h2>
+    <!--
+        3)External css
+    -->
+
+    <div>I am div styled using external css</div>
+
+    <h3>I am h3 tag styled using external css</h3>
+
+
+    <!--
+        Selectors in CSS
+        =========================================
+        =========================================
+    -->
+    <!--
+        1)Element selectors
+    -->
+    <h4>I am styled using Element selector</h4>
+
+    <!--
+        2)Id selector
+    -->
+
+    <span id="s">I am styled using Id selector</span> <br/>
+    
+
+    <!--
+        3)class selector
+    -->
+    <span class="one">I am span styled by class selector one </span>
+    <div class="one">I am div styled by class selector one</div>
+    <label class="one">I am label styled by class selector one</label>
+    <h1 class="one">I am h1 styled by class selector one</h1>
+
+    <!--
+        5)Grouping selectors
+    -->
+
+    <h1>I am h1 styled using group selector</h1>
+    <span id="a">I am span styled by group selector</span>
+    <div class="two">I am div styled by group selector</div>
+
+     <!--
+         order of predence of methods of styling
+            1)inline css --higest priority
+            2)internal css - second priority
+            3)external - least priority
+     -->  
+     
+     <h2 style="color: orange;">This is a weekend</h2>
+
+     <h1>Today is Saturday</h1>
+     
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event demo</title>
+    <script>
+        function greet(){
+            alert("Hi user!!Welcome back")
+        }
+
+       /* function mouse_over(){
+            document.write("The mouse was moved over the text area");
+        }*/
+
+        function mouse_over(elementId){
+            elementId.innerHTML=("The mouse was moved over the text area");
+           
+        }
+
+        function mouse_out(elementId){
+            elementId.innerHTML=("The mouse was moved out of the text area");            
+        }
+    </script>
+</head>
+<body>
+    <button onclick="greet()">Click me!!</button> <br/><br/>
+
+    <textarea placeholder="Mouse over me" onmouseover="mouse_over(document.getElementById('event-message'))"
+    onmouseout="mouse_out(document.getElementById('event-message'))"
+    ></textarea>
+
+    <p id="event-message" ></p>
+    
+</body>
+</html>

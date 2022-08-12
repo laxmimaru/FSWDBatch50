@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thisContextDemo</title>
+</head>
+<body>
+<!--
+1)global access context:- refers to the global window object
+2)event handlers:- when accessed with event handlers the this object refres to the html element itself
+3)bind:- using bind we can change the value of this object.
+4)Arrow function:- whenver accessed with arrows ,the this object reference is the same as
+that of the refernce sorrounding the arrow functions.
+
+-->
+<h1 id="this-event-demo">this Html element event context</h1>
+
+    <script>
+
+        function fn_simple_this(){
+            console.log(this);//1)this refers to global object
+        }
+        
+        this_event_context = document.getElementById("this-event-demo");
+       /* this_event_context.addEventListener("click",function(){
+           console.log(this) 
+        }
+
+        )*/
+
+       /* this_event_context.addEventListener("click",fn_simple_this.bind(
+            {
+                name:"edureka",
+                course:"full stack web dev"
+            }
+        )
+
+        )*/
+
+        console.log(this) ;   
+        this_event_context.addEventListener("click",()=>{
+            console.log(this);
+        }
+
+        )
+
+        fn_simple_this();
+
+    </script>
+    
+</body>
+</html>

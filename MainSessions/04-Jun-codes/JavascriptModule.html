@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Module demo</title>
+    <script src="Jsoutputdemo.js"></script>
+
+</head>
+<body>
+    This is javascript demo
+    <!--
+        1)Inner Html method
+    -->
+    <p id="para">I am a normal paragraph</p>
+    <button onclick="innerHtmlFUnc('para')">change the Para value</button>
+
+    <!--
+        2)document.write
+    -->
+    <h1 id="h">I am para 2</h1>
+
+    <button onclick="documentWriteFunc()"> change the para with document write</button><br/><br/>
+
+    <!--
+        3)Window.alert
+    -->
+
+    <button onclick="alertFunc()">Pop up the display with alert</button><br/><br/>
+
+    <!--
+        4)console.log
+    -->
+
+    <button onclick="consoleLogFunc()">Output using console log</button>
+
+    <!--
+        Input Satements inside js
+    -->
+
+    <p>PLease provide your food choice</p>
+    <!--
+            <h3 id="foodCoice"></h3>
+    -->
+
+
+
+    <h3 id="loginUser"></h3>
+
+    <script>
+    /*    var foodOption = window.prompt()
+        const elem = document.getElementById("foodCoice");
+        elem.innerHTML=foodOption;
+
+        */
+    </script>
+
+    
+<script>
+       var isLoggedin = window.confirm()
+        const elem = document.getElementById("loginUser");
+        console.log(elem);
+        console.log(isLoggedin);
+        if(isLoggedin == true){
+            elem.innerHTML="Hi user..Welcome back !!"
+        }
+        else{
+            elem.innerHTML="Hi Guest..Please signup !!"
+        }
+    </script>
+    
+</body>
+</html>

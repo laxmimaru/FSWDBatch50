@@ -1,0 +1,75 @@
+.header{
+    background-color: crimson;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    
+
+}
+
+.headerimage{
+    height: 60px;
+    padding: 2px;
+    padding-left: 80px;
+
+}
+
+.createaccount{
+    height: 30px;
+    width: 150px;
+    background-color: crimson;
+    color: white;
+}
+
+.banner{
+    
+    height: 20px;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    padding-bottom: 30px;
+
+}
+
+.filterdiv{
+    display: inline-block;    
+    width: 200px;
+    height: 500px;    
+    left: 50px;
+    position: absolute;
+
+}
+
+.innerfilter{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border: darkblue solid 2px;
+}
+
+.options{
+    width: 800px;
+    height: 500px;    
+    position: absolute;
+    left: 300px;
+    
+}
+
+.option1{
+    width: 800px; 
+    height: 225px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    
+}
+
+.option2{
+    width: 800px; 
+    height: 225px;
+    background-color: blue;
+    margin-bottom: 20px;
+    
+    
+}

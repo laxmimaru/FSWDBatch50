@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "name": "19-jun-codes",
+  "version": "1.0.0",
+  "main": "httpModule.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "executeProg":"nodemon httpModule"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
