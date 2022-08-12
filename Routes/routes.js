@@ -13,4 +13,5 @@ router.post('/addUser',usersController.signUp);
 router.get('/login',usersController.login);
 router.get('/getMealTypes',MealTypesController.getMealTypes)
 
+
 module.exports = router;
